@@ -46,15 +46,18 @@ export default class App extends React.Component {
     }else {
       inputs =
         <form>
-
+          <label forhtml='input1'>Input 1:</label>
           <input
             type='text'
+            name='input1'
             value={this.state.input1}
             onChange={e => this.handleChange(e, 1)}
           />
 
+        <label forhtml='input2'>Input 2:</label>
           <input
             type='text'
+            name='input2'
             value={this.state.input2}
             onChange={e => this.handleChange(e, 2)}
           />
