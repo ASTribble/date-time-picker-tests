@@ -2,7 +2,8 @@ import React from 'react';
 import DateTimePicker from 'react-datetime-picker';
 import moment from 'moment';
 
-//this one doesn't
+//this one is simple.  It states that one of it's benefits is 
+//no use of moment.js, but that's in the code I'm looking for..
 export default class DatePicker2 extends React.Component {
   state = {
     date: new Date()
